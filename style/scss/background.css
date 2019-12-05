@@ -1,0 +1,17 @@
+.backgroundGradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  background: radial-gradient(#000, #11151D);
+  width: auto;
+  height: 100vh;
+  transition: 1s;
+}
+.backgroundGradient--after {
+  justify-content: flex-end;
+  transition: 1s;
+}
+
+/*# sourceMappingURL=background.css.map */

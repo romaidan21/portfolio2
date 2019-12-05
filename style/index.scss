@@ -1,0 +1,33 @@
+@import "scss/center-roman.css";
+@import "scss/footer.css";
+@import "scss/about-me.css";
+@import "scss/me-img.css";
+@import "scss/background.css";
+@import "scss/button-center.css";
+@import "scss/r-menu.css";
+
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+
+  p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .displayNone{
+    display: none;
+  }
+
+  .opacityTrans{
+    opacity: 0;
+    transition: .5s;
+  }
+
+
+
+}
+

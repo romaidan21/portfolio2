@@ -1,0 +1,82 @@
+.absolute {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: auto;
+
+  a{
+    z-index: 10;
+    position: relative;
+    color: red;
+    font-size: 19px;
+    font-family: 'Ibarra Real Nova', cursive;
+    letter-spacing: 1px;
+    white-space: nowrap;
+
+
+
+    .arrow-about-me{
+      transform: rotate(180deg);
+      margin-right: 0.5em;
+    }
+    .arrow-my-work{
+      margin-left: 0.5em;
+    }
+    .arrow{
+      display: inline-block;
+
+      &::before{
+        content: '';
+        width: 1em;
+        height: 2px;
+        vertical-align: middle;
+        display: inline-block;
+        background: #FF1717;
+      }
+
+      &::after{
+        content: '';
+        border-style: solid;
+        border-width: .25em 0 .25em .35em;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: #FF1717;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+
+
+  }
+
+
+  .buttonAboutMe{
+    left: 3%;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover{
+      left: 4%;
+      transition: .5s
+    }
+  }
+
+
+  .buttonMyWork{
+    right: 3%;
+    transition: .5s;
+    cursor: pointer;
+
+
+    &:hover{
+      right: 4%;
+      transition: .5s;
+    }
+  }
+
+
+
+}
