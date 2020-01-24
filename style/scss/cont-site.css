@@ -1,0 +1,57 @@
+.cont-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transition: 0.3s;
+}
+.cont-site .screen-site {
+  margin: 5% 0;
+  width: 60%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  transition: 0.3s;
+}
+.cont-site .screen-site:hover {
+  width: 70%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.cont-site .screen-site:hover .web-text {
+  font-size: 70px;
+  transition: 0.5s;
+  opacity: 1;
+}
+.cont-site .screen-site img {
+  width: 100%;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.cont-site .screen-site img:hover {
+  transition: 0.5s;
+  opacity: 0.4;
+}
+.cont-site .screen-site .web-text {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+  opacity: 0.2;
+}
+
+.margin-top {
+  transition: 0.3s;
+  margin-top: -10%;
+}
+
+.opacity {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=cont-site.css.map */

@@ -60,12 +60,18 @@
 }
 .hidden-menu .r-menu i {
   color: black;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   font-style: normal;
   transition: 0.5s;
   width: 40px;
-  height: 30px;
+  height: 24px;
+}
+
+@media only screen and (max-width: 500px) {
+  .hidden-menu {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=r-menu.css.map */

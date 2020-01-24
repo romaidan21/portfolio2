@@ -1,0 +1,73 @@
+.contAboutMe{
+  display: flex;
+  align-items: center;
+
+  .center--block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .text--content{
+      width: 65%;
+
+      h1{
+        margin: 0;
+        font-size: 30px;
+        font-weight: 800;
+        font-family: 'Raleway', sans-serif ;
+        letter-spacing: 1px;
+      }
+
+      p{
+        font-family: 'Raleway', sans-serif;
+        margin: -10px 0;
+        padding-left: 5px;
+        font-size: 70px;
+        font-weight: 800;
+        letter-spacing: 3px;
+      }
+      p:nth-of-type(4){
+        font-size: 55px;
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .contAboutMe{
+  .center--block{
+    .text--content{
+      h1{
+      }
+      p{
+        font-size: 60px;
+      }
+      p:nth-of-type(4){
+        font-size: 50px;
+      }
+    }
+  }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .contAboutMe {
+    .center--block {
+      .text--content {
+        h1 {
+          font-size: 27px;
+        }
+
+        p {
+          font-size: 45px;
+        }
+
+        p:nth-of-type(4) {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}

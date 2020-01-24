@@ -1,0 +1,52 @@
+.contAboutMe {
+  display: flex;
+  align-items: center;
+}
+.contAboutMe .center--block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contAboutMe .center--block .text--content {
+  width: 65%;
+}
+.contAboutMe .center--block .text--content h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
+.contAboutMe .center--block .text--content p {
+  font-family: "Raleway", sans-serif;
+  margin: -10px 0;
+  padding-left: 5px;
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.contAboutMe .center--block .text--content p:nth-of-type(4) {
+  font-size: 55px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contAboutMe .center--block .text--content p {
+    font-size: 60px;
+  }
+  .contAboutMe .center--block .text--content p:nth-of-type(4) {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .contAboutMe .center--block .text--content h1 {
+    font-size: 27px;
+  }
+  .contAboutMe .center--block .text--content p {
+    font-size: 45px;
+  }
+  .contAboutMe .center--block .text--content p:nth-of-type(4) {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=roman-maidan.css.map */

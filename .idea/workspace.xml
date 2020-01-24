@@ -1,26 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303c3d54-698d-4270-a382-de47b59359d1" name="Default Changelist" comment="" />
+    <list default="true" id="303c3d54-698d-4270-a382-de47b59359d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/style/scss/about--center-cont.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/cont-site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/fixed-R-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/page-work.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myPortfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/about-me.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/about-me.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/about-me.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/background.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/background.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/background.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/button-center.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/button-center.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/button-center.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/button-center.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/button-center.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/button-center.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/me-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/me-img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/me-img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/r-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/r-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/r-menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/r-menu.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/r-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/r-menu.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1UZfdwKzYUMaKIEezbmDrKcMrnF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,7 +95,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575569130149</updated>
-      <workItem from="1575569134703" duration="1795000" />
+      <workItem from="1575569134703" duration="12591000" />
+      <workItem from="1576691445790" duration="3284000" />
+      <workItem from="1578604510344" duration="86000" />
+      <workItem from="1579267340871" duration="1657000" />
+      <workItem from="1579269346327" duration="3000" />
+      <workItem from="1579269607736" duration="824000" />
+      <workItem from="1579271854581" duration="8554000" />
+      <workItem from="1579381933979" duration="63250000" />
+      <workItem from="1579770918596" duration="31050000" />
     </task>
     <servers />
   </component>
@@ -56,7 +115,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

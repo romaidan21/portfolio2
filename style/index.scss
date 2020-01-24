@@ -5,12 +5,19 @@
 @import "scss/background.css";
 @import "scss/button-center.css";
 @import "scss/r-menu.css";
+@import "scss/roman-maidan.css";
+@import "scss/colors.css";
+@import "scss/about--center-cont.css";
+@import "scss/fixed-R-menu.css";
+@import "scss/page-work.css";
+@import "scss/cont-site.css";
 
 
 body {
   margin: 0;
   width: 100%;
   height: 100%;
+  background-color: #10171B;
 
 
   p{
@@ -19,12 +26,25 @@ body {
   }
 
   .displayNone{
-    display: none;
+    display: none!important;
   }
 
   .opacityTrans{
+    z-index: -10;
     opacity: 0;
     transition: .5s;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .cursor{
+    cursor: pointer;
+  }
+
+  .right{
+    right: 0;
   }
 
 
