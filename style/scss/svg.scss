@@ -1,0 +1,96 @@
+.link-in-me{
+  z-index: 100;
+  padding: 1em 0;
+
+  .svg{
+    fill: white;
+    padding: 10px;
+    width: 30px;
+    transition: .3s
+  }
+
+
+  .telegram{
+
+    .t-circle{
+      fill: white;
+      transition: .3s
+
+    }
+    .t-center{
+      fill: black;
+      transition: .3s
+
+    }
+
+    &:hover{
+      .t-circle{
+        fill: #039BE5;
+        transition: .3s
+
+      }
+      .t-center{
+        fill: white;
+        transition: .3s
+
+      }
+    }
+
+  }
+  .github{
+    .g-white{
+      fill: white;
+      transition: .3s;
+    }
+    .g-black{
+      fill: black;
+      transition: .3s;
+    }
+
+    &:hover{
+      .g-white{
+        fill: #5C6BC0;
+        transition: .3s;
+      }
+      .g-black{
+        fill: white;
+        transition: .3s;
+      }
+    }
+  }
+  .facebook{
+    .f-center{
+      fill: #ffffff;
+      transition: .3s;
+    }
+    .f-f{
+      fill: #000000;
+      transition: .3s;
+    }
+
+    &:hover{
+      .f-center{
+        fill: #4267b2;
+        transition: .3s;
+      }
+      .f-f{
+        fill: #ffffff;
+        transition: .3s;
+      }
+    }
+
+  }
+  .gmail {
+    .active-gmail{
+      transition: .3s;
+      fill: #000000;
+    }
+
+    &:hover .active-gmail{
+        transition: .3s;
+        fill: #F44336;
+    }
+  }
+
+}
+

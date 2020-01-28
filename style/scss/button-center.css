@@ -7,7 +7,6 @@
   height: auto;
 }
 .absolute .buttonAboutMe {
-  padding: 1.5em;
   transition: 0.4s;
   cursor: pointer;
 }
@@ -16,7 +15,6 @@
   transition: 0.4s;
 }
 .absolute .buttonMyWork {
-  padding: 1.5em;
   transition: 0.4s;
   cursor: pointer;
 }
@@ -26,11 +24,12 @@
 }
 
 .navigation-btn {
+  padding: 1.5em;
   z-index: 10;
   position: relative;
   color: red;
-  font-size: 19px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 500;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   white-space: nowrap;

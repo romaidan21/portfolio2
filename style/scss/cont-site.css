@@ -3,11 +3,11 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .cont-site .screen-site {
-  margin: 5% 0;
-  width: 60%;
+  margin: 0 0 7%;
+  width: 50%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   transition: 0.3s;
 }
 .cont-site .screen-site:hover {
-  width: 70%;
+  width: 60%;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -47,6 +47,11 @@
 .margin-top {
   transition: 0.3s;
   margin-top: -10%;
+}
+
+.margin-before {
+  margin-top: 10%;
+  transition: 0.3s;
 }
 
 .opacity {

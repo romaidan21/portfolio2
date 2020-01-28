@@ -1,4 +1,5 @@
 .fixedR {
+  padding-bottom: 10em;
   position: fixed;
   top: 6%;
   left: 4%;
@@ -62,6 +63,20 @@
 .white {
   color: white !important;
   transition: 0.5s;
+}
+
+.home-p {
+  opacity: 0;
+  padding-top: 5px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.fixedR:hover .home-p {
+  transition: 0.2s;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=fixed-R-menu.css.map */
