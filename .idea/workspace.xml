@@ -2,18 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303c3d54-698d-4270-a382-de47b59359d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/style/scss/navigation-btn.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/scss/svg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1_hand_Fin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1_hand_Рома лох.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/long1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sexiboy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/hidden-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/hidden-menu.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/hidden-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/preloader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/preloader.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/scss/preloader.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/telegram.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about-me.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/button-center.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/button-center.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/button-center.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/button-center.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/button-center.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/button-center.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/cont-site.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/cont-site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/cont-site.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/cont-site.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/cont-site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/cont-site.scss" afterDir="false" />
@@ -21,11 +40,19 @@
       <change beforePath="$PROJECT_DIR$/style/scss/fixed-R-menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/fixed-R-menu.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/fixed-R-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/fixed-R-menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/me-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/me-img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/me-img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/navigation-btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/navigation-btn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/navigation-btn.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/navigation-btn.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/navigation-btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/navigation-btn.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/page-work.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/page-work.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/page-work.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/page-work.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/page-work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/page-work.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/r-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/r-menu.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/r-menu.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.scss" afterDir="false" />
@@ -36,9 +63,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myPortfolio" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -54,8 +85,11 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1UZfdwKzYUMaKIEezbmDrKcMrnF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -98,7 +132,7 @@
       <workItem from="1579269607736" duration="824000" />
       <workItem from="1579271854581" duration="8554000" />
       <workItem from="1579381933979" duration="63250000" />
-      <workItem from="1579770918596" duration="78648000" />
+      <workItem from="1579770918596" duration="145549000" />
     </task>
     <servers />
   </component>
@@ -117,5 +151,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

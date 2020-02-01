@@ -6,9 +6,6 @@
   width: 100%;
   height: auto;
 
-
-
-
   .buttonAboutMe{
     transition: .4s;
     cursor: pointer;
@@ -19,34 +16,26 @@
     }
   }
 
-
   .buttonMyWork{
     transition: .4s;
     cursor: pointer;
-
 
     &:hover{
       padding-right: 2em;
       transition: .4s;
     }
   }
-
-
-
 }
 
 .navigation-btn {
   padding: 1.5em;
   z-index: 10;
   position: relative;
-  color: red;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   white-space: nowrap;
-
-
 
   .arrow-about-me{
     transform: rotate(180deg);
@@ -64,7 +53,7 @@
       height: 2px;
       vertical-align: middle;
       display: inline-block;
-      background: #FF1717;
+      background: #9D1613;
     }
 
     &::after{
@@ -73,44 +62,46 @@
       border-width: 4px 0 4px 5px;
       border-top-color: transparent;
       border-bottom-color: transparent;
-      border-left-color: #FF1717;
+      border-left-color: #9D1613;
       display: inline-block;
       vertical-align: middle;
     }
   }
-
-
-
 }
 
 
+@media only screen and (max-width: 1440px) {
 
+  .navigation-btn{
+    font-size: 17px;
+  }
+}
 
+@media only screen and (max-width: 1024px) {
 
+  .navigation-btn{
+    font-size: 15px;
+  }
+}
 
+@media only screen and (max-width: 850px) {
 
-
-
-
-
+  .navigation-btn{
+    font-size: 13px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
 
-.absolute{
-  a{
-    font-size: 14px;
+  .navigation-btn{
+    font-size: 11px;
   }
 }
 
-}
+@media only screen and (max-width: 550px) {
 
-@media only screen and (max-width: 500px) {
-
-.absolute{
-  a{
+  .navigation-btn{
     display: none;
   }
-}
-
 }
 

@@ -6,73 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style/index.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,400i,600,600i,700,700i&display=swap"
-          rel="stylesheet">
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/index.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
-
-
-
 
 </head>
 
 <body>
 
-<div class="hidden-menu">
-
-            <span class="r-menu">
-               <i>R</i>
-                <span id="hidden-menu" class="oman-hidden">
-                    <i>o</i>
-                    <i>m</i>
-                    <i>a</i>
-                    <i>n</i>
-                </span>
-            </span>
+<div id="page_preloader" class="preloader">
+    <div class="loader_gif">
+        <svg class="preloader-r" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490.66667 490.66667" >
+            <g>
+                <path d="m490.667969 245.332031c0 135.496094-109.839844 245.335938-245.335938 245.335938-135.492187 0-245.332031-109.839844-245.332031-245.335938
+         0-135.492187 109.839844-245.332031 245.332031-245.332031 135.496094 0 245.335938 109.839844 245.335938
+         245.332031zm0 0" fill="#009688"/>
+                <path d="m245.332031 490.667969c-135.273437 0-245.332031-110.058594-245.332031-245.335938 0-135.273437
+        110.058594-245.332031 245.332031-245.332031 135.277344 0 245.335938 110.058594 245.335938 245.332031 0
+        135.277344-110.058594 245.335938-245.335938 245.335938zm0-469.335938c-123.519531 0-224 100.480469-224
+        224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0"/>
+                <path d="m309.332031 341.332031c-5.886719 0-10.664062-4.777343-10.664062-10.664062v-21.335938c0-17.640625-14.359375-32-31.980469-32h-53.355469v53.335938c0
+         5.886719-4.777343 10.664062-10.664062 10.664062-5.890625 0-10.667969-4.777343-10.667969-10.664062v-62.507813c-.0625-.46875-.105469-1.003906-.105469-1.492187
+          0-.492188.042969-1.023438.105469-1.496094v-105.171875c0-5.886719 4.777344-10.667969 10.667969-10.667969h64c29.417969
+           0 53.332031 23.914063 53.332031 53.335938v21.332031c0 17.40625-8.40625 32.917969-21.355469 42.667969 12.949219
+           9.726562 21.355469 25.234375 21.355469 42.664062v21.335938c0 5.886719-4.777344 10.664062-10.667969
+           10.664062zm-96-85.332031h53.335938c17.640625 0 32-14.355469 32-32v-21.332031c0-17.644531-14.359375-32-32-32h-53.335938zm0 0" />
+            </g>
+        </svg>
+    </div>
 </div>
+
+
+<div class="hidden-menu cursor">
+    <p class="hidden-menu--btn-menu white">Menu.</p>
+</div>
+<div class="close-menu scale">
+    <p class="close-menu--btn-close cursor">Close.</p>
+    <a id="close-menu--home">Home</a>
+    <a id="close-menu--about">About me</a>
+    <a id="close-menu--work">My work</a>
+</div>
+
 
 <div class="backgroundGradient">
     <div class="cont-img">
-<!--        <img class="meImg" src="img/12345.png" alt="">-->
-        </div>
+        <img class="meImg transform-2x" src="img/sexiboy.png" alt="">
+    </div>
 
-    <div class="absolute">
+    <div class="absolute ">
 
-        <a class="buttonAboutMe navigation-btn"><span class="arrow arrow-about-me"></span>About me</a>
+        <a class="buttonAboutMe navigation-btn red"><span class="arrow arrow-about-me"></span>About me</a>
 
         <div class="centerRoman" >
-
-            <span class="bigR" id="bigR">
-                <i class="romanInd roman-i ">R</i>
-                <span id="myLogo" class="oman-active">
+            <span class="bigR red" id="bigR">
+                <i class="romanInd roman-i roman--i--after">R</i>
+                <span id="myLogo" class="oman-hidden">
                     <i>o</i>
                     <i>m</i>
                     <i>a</i>
                     <i>n</i>
                 </span>
-                <i class="romanInd roman-i ">.</i>
+                <i class="romanInd roman-i roman--i--after">.</i>
             </span>
 
-
-
-<!--            <p class=" displayNone work-active">Work</p>-->
-            
-            
-            
         </div>
 
-        <a class="buttonMyWork navigation-btn" id="myWork" > My Work <span class="arrow arrow-my-work"></span> </a>
+        <a class="buttonMyWork navigation-btn red" id="myWork" > My Work <span class="arrow arrow-my-work"></span> </a>
     </div>
 
     <div class="contAboutMe ">
 
         <div class="center--block">
             <div class="text--content">
-                <h1 class="red">Roman <span>M</span>aidan</h1>
+                <h1 class="my-color">Roman <span>M</span>aidan</h1>
                 <p>Web</p>
                 <p>Developer,</p>
                 <p>Student, </p>
@@ -85,14 +88,14 @@
             </div>
         </div>
         <div class="learn-more">
-            <p>Learn More</p>
+            <p>Learn More <span class="line"></span></p>
 
         </div>
 
     </div>
 
     <div class="fixedR  displayNone  ">
-        <span id="fixedR-top" class="bigR close-R cursor" >
+        <span id="fixedR-top" class="bigR g-black close-R cursor" >
                <i class="romanInd">R</i>
                      <span id="hiddenMe" class="oman-hidden">
                     <i>o</i>
@@ -113,7 +116,7 @@
 <div class="about--center-cont displayNone">
     <div class="center-cont-half">
         <div class="half-cont">
-            <h4 class="red">Hello,</h4>
+            <h4 class="my-color">Hello,</h4>
             <p>
                 My name is Aaron Porter and I am a designer, filmmaker, and creative based out of Grand Rapids, Michigan.
                 I am currently a student at Kendall College of Art and Design at Ferris State University, 
@@ -124,7 +127,7 @@
         </div>
         <div class="half-cont">
             <div class="cont-resume">
-                <a href="" class="red"> Download my resume.</a>
+                <a href="" class="my-color"> Download my resume.</a>
             </div>
         </div>
     </div>
@@ -141,9 +144,8 @@
                     <i class="romanInd">.</i>
                 </span>
         </div>
-
         <div class="link-in-me">
-            <a href="https://t.me/Day_Ro" >
+            <a href="https://t.me/Day_Ro" target="_blank" >
                 <svg class="telegram svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" >
                     <g>
                         <circle class="t-circle" cx="12" cy="12" r="12" />
@@ -153,7 +155,7 @@
                     </g>
                 </svg>
             </a>
-            <a href="https://github.com/romaidan21">
+            <a href="https://github.com/romaidan21" target="_blank">
                 <svg class="github svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <g>
                         <path class="g-white" d="m512 257c0 120-84.101562 220.5-196 247.5l-30.601562-97.199219h-58.796876l-29.601562
@@ -177,7 +179,7 @@
                     </g>
                 </svg>
             </a>
-            <a href="mailto:romecom2210@gmail.com">
+            <a href="mailto:romecom2210@gmail.com" target="_blank">
                 <svg class="gmail svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512"   >
                     <g>
                         <rect style="fill:#ffffff;"/>
@@ -188,7 +190,7 @@
                     </g>
                 </svg>
             </a>
-            <a href="https://www.facebook.com/dai.man.ro">
+            <a href="https://www.facebook.com/dai.man.ro" target="_blank">
                 <svg class="facebook svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                     <path class="f-center" d="m512 256c0 111.175781-70.863281 205.792969-169.890625 241.152344-.363281.136718-.742187.261718-1.105469.386718-26.59375
                     9.371094-55.203125 14.460938-85.003906 14.460938-5.296875 0-10.554688-.15625-15.777344-.480469-.753906-.042969-1.503906-.09375-2.246094-.144531-132.976562-9.25-237.976562-120.050781-237.976562-255.375
@@ -201,15 +203,13 @@
                 </svg>
             </a>
         </div>
-
     </div>
 </div>
 
 
 
-<div class="page-work displayNone" id="page-work">
-    <div id="fixed--half-opacity">
-    </div>
+<div class="page-work displayNone red" id="page-work">
+    <div id="fixed--half-opacity"></div>
 
     <div class="cont-work">
         <a id="work-btn--about-me" class="nav-btn left-5 navigation-btn about-btn-center work-btn--about-me cursor">
@@ -223,12 +223,21 @@
 
             <div id="work1" class="screen-site">
                 <img class=" img " src="img/work1.jpg" alt="">
-                <p class="web-text">View on github</p>
+                <div class="cont-text">
+                    <a href="https://romaidan21.github.io/first/" target="_blank" class="web-text demo link">Demo</a>
+                    <p class="web-text">or</p>
+                    <a href="https://github.com/romaidan21/first" target="_blank" class="web-text link">Source on github</a>
+                </div>
+
             </div>
 
             <div id="work2" class="screen-site">
                 <img class=" img " src="img/work2.jpg" alt="">
-                <p class="web-text">View on github</p>
+                <div class="cont-text">
+                    <a href="https://romaidan21.github.io/fabuwood/" target="_blank" class="web-text demo link">Demo</a>
+                    <p class="web-text">or</p>
+                    <a href="https://github.com/romaidan21/fabuwood" target="_blank" class="web-text link">Source on github</a>
+                </div>
             </div>
 
 
@@ -249,7 +258,7 @@
                 </span>
         </div>
         <div class="link-in-me">
-            <a href="https://t.me/Day_Ro" >
+            <a href="https://t.me/Day_Ro" target="_blank" >
                 <svg class="telegram svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" >
                     <g>
                         <circle class="t-circle" cx="12" cy="12" r="12" />
@@ -259,7 +268,7 @@
                     </g>
                 </svg>
             </a>
-            <a href="https://github.com/romaidan21">
+            <a href="https://github.com/romaidan21" target="_blank">
                 <svg class="github svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <g>
                         <path class="g-white" d="m512 257c0 120-84.101562 220.5-196 247.5l-30.601562-97.199219h-58.796876l-29.601562
@@ -283,18 +292,19 @@
                     </g>
                 </svg>
             </a>
-            <a href="mailto:romecom2210@gmail.com">
+            <a href="mailto:romecom2210@gmail.com" target="_blank">
                 <svg class="gmail svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512"   >
                     <g>
-                        <rect x="64" y="64" style="fill:#ECEFF1;" width="384" height="384" />
-                        <polygon style="fill:#CFD8DC;" points="256,296.384 448,448 448,148.672 " />
+                        <rect style="fill:#ffffff;" x="64" y="64" width="384" height="384"/>
+                        <polygon style="fill:#ffffff;" points="256,296.384 448,448 448,148.672 " />
                         <path d="M464,64h-16L256,215.616L64,64H48C21.504,64,0,85.504,0,112v288c0,26.496,21.504,48,48,48h16V148.672
-                         l192,147.68L448,148.64V448h16c26.496,0,48-21.504,48-48V112C512,85.504,490.496,64,464,64z"
-                              class="active-gmail"/>
+                         l192,147.68L448,148.64V448h16c26.496,0,48-21.504,48-48V112C512,85.504,490.496,64,464,64z" class="active-gmail"/>
                     </g>
                 </svg>
+
+
             </a>
-            <a href="https://www.facebook.com/dai.man.ro">
+            <a href="https://www.facebook.com/dai.man.ro" target="_blank">
                 <svg class="facebook svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                     <path class="f-center" d="m512 256c0 111.175781-70.863281 205.792969-169.890625 241.152344-.363281.136718-.742187.261718-1.105469.386718-26.59375
                     9.371094-55.203125 14.460938-85.003906 14.460938-5.296875 0-10.554688-.15625-15.777344-.480469-.753906-.042969-1.503906-.09375-2.246094-.144531-132.976562-9.25-237.976562-120.050781-237.976562-255.375
@@ -314,10 +324,20 @@
 
 </div>
 
-<a  id="about-btn--work" class="nav-btn displayNone about-btn--work navigation-btn work-btn-center right-5 cursor" > View my work <span class="arrow arrow-my-work"></span> </a>
+<a  id="about-btn--work" class="nav-btn displayNone about-btn--work navigation-btn work-btn-center right-5 cursor red" > View my work <span class="arrow arrow-my-work"></span> </a>
 
 
 
+
+<script src="js/preloader.js"></script>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
 
 
 </body>

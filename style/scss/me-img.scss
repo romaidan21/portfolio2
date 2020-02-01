@@ -5,9 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-color: #142340;
+  background-color: #0f0f0f;
   position: fixed;
   transition: .5s;
+  overflow: hidden;
 
   &--50{
     width: 50%;
@@ -28,8 +29,10 @@
 
 
 .meImg{
-  height: 100%;
+  height: 120%;
   transition: 1s;
+}
 
-
+.transform-2x{
+  transform: scale(1.5);
 }

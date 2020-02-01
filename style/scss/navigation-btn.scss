@@ -1,24 +1,20 @@
+@import "colors.scss";
+
 .nav-btn{
   font-size: 17px;
-  font-weight: 500;
-  padding: 1.5em;
   position: fixed;
   transition: .3s;
   opacity: 1;
-
 }
 
-
-
 .work-btn--about-me{
-  color: black;
+  color: $red;
   left: 0;
 
   &:hover{
     padding-left: 2em;
     transition: .3s;
   }
-
 }
 .left-5{
   left: -5%;
@@ -26,10 +22,7 @@
   transition: .3s;
 }
 
-
-
 .about-btn--work{
-  color: red;
   right: 0;
 
   &:hover{
@@ -38,13 +31,14 @@
   }
 
   .arrow::before{
-    background: red;
+    background: $red;
   }
 
   .arrow::after{
-    border-left-color: red;
+    border-left-color: $red;
   }
 }
+
 .right-5{
   z-index: -10;
   right: -5%;
@@ -52,29 +46,25 @@
   transition: .3s;
 }
 
-
-
-
-
 .work-btn-center{
   bottom: 50%;
   transition: .3s;
 
   .arrow::before{
-    background: red;
+    background: $red;
   }
 
   .arrow::after{
-    border-left-color: red;
+    border-left-color: $red;
   }
-
 }
+
 .work-btn-down{
   bottom: 5%;
   color: #000000;
 
   &:hover{
-    color: red;
+    color: $red;
   }
 
   .arrow::before{
@@ -84,32 +74,28 @@
   .arrow::after{
     border-left-color: black;
   }
-
-
-
 }
 
-
-
 .about-btn-center{
+  z-index: 1000;
   bottom: 50%;
   transition: .3s;
 
-  .arrow::before{
-    background: black;
-  }
-
-  .arrow::after{
-    border-left-color: black;
-  }
-
+//  .arrow::before{
+//    background: $red;
+//  }
+//
+//  .arrow::after{
+//    border-left-color: black;
+//  }
 }
+
 .about-btn-down{
   bottom: 5%;
   color: #ffffff;
 
   &:hover{
-    color: red;
+    color: $red;
   }
 
   .arrow::before{
@@ -119,9 +105,6 @@
   .arrow::after{
     border-left-color: white;
   }
-
-
-
 }
 
 

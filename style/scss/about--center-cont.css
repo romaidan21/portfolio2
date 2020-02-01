@@ -1,4 +1,5 @@
 .about--center-cont {
+  font-family: "Montserrat", sans-serif;
   background-color: #fff;
 }
 .about--center-cont .center-cont-half {
@@ -11,17 +12,15 @@
   min-width: 50%;
 }
 .about--center-cont .center-cont-half .half-cont h4 {
-  font-family: "Ibarra Real Nova", cursive;
   font-size: 5em;
   font-weight: bold;
   margin: 0;
 }
 .about--center-cont .center-cont-half .half-cont p {
-  font-family: Ibarra Real Nova, cursive;
   margin: 0;
   padding: 0;
   font-size: 1.2em;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.8em;
   opacity: 0.8;
 }
@@ -30,9 +29,8 @@
   padding: 2em;
 }
 .about--center-cont .center-cont-half .half-cont .cont-resume a {
-  font-family: Ibarra Real Nova, cursive;
-  font-size: 1.4em;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=about--center-cont.css.map */

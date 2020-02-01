@@ -18,30 +18,45 @@
 .cont-site .screen-site:hover {
   width: 60%;
   transition: 0.3s;
-  cursor: pointer;
-}
-.cont-site .screen-site:hover .web-text {
-  font-size: 70px;
-  transition: 0.5s;
-  opacity: 1;
 }
 .cont-site .screen-site img {
   width: 100%;
   opacity: 0.9;
   transition: 0.5s;
 }
-.cont-site .screen-site img:hover {
+
+.cont-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.cont-text:hover .web-text {
+  font-size: 50px;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+.cont-text .web-text {
+  cursor: default;
+  color: #fff;
   transition: 0.5s;
   opacity: 0.4;
 }
-.cont-site .screen-site .web-text {
-  position: absolute;
-  font-family: "Montserrat", sans-serif;
-  font-size: 55px;
-  font-weight: 600;
-  color: #fff;
-  transition: 0.5s;
-  opacity: 0.2;
+.cont-text .link:hover {
+  cursor: pointer;
+  font-size: 60px;
+  opacity: 1;
+  transition: 0.3s;
+  font-weight: 800;
+}
+.cont-text .demo {
+  color: #FF0000;
 }
 
 .margin-top {
@@ -57,6 +72,48 @@
 .opacity {
   opacity: 0;
   transition: 0.5s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cont-text {
+    font-size: 35px;
+  }
+  .cont-text:hover .web-text {
+    font-size: 45px;
+  }
+  .cont-text .link:hover {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cont-text {
+    font-size: 25px;
+  }
+  .cont-text:hover .web-text {
+    font-size: 35px;
+  }
+  .cont-text .link:hover {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .cont-site .screen-site {
+    margin: 0 0 10%;
+    width: 75%;
+  }
+  .cont-site .screen-site:hover {
+    width: 80%;
+  }
+
+  .cont-text {
+    font-size: 35px;
+  }
+  .cont-text .web-text {
+    opacity: 1;
+  }
+  .cont-text .link:hover {
+    font-size: 40px;
+  }
 }
 
 /*# sourceMappingURL=cont-site.css.map */

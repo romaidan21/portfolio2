@@ -1,14 +1,28 @@
+.red {
+  color: #9D1613;
+}
+
+.bg--red {
+  background: #9D1613;
+}
+
+.g-black {
+  color: #000000;
+}
+
+.my-color {
+  color: #ff0000;
+}
+
 .nav-btn {
   font-size: 17px;
-  font-weight: 500;
-  padding: 1.5em;
   position: fixed;
   transition: 0.3s;
   opacity: 1;
 }
 
 .work-btn--about-me {
-  color: black;
+  color: #9D1613;
   left: 0;
 }
 .work-btn--about-me:hover {
@@ -23,7 +37,6 @@
 }
 
 .about-btn--work {
-  color: red;
   right: 0;
 }
 .about-btn--work:hover {
@@ -31,10 +44,10 @@
   transition: 0.3s;
 }
 .about-btn--work .arrow::before {
-  background: red;
+  background: #9D1613;
 }
 .about-btn--work .arrow::after {
-  border-left-color: red;
+  border-left-color: #9D1613;
 }
 
 .right-5 {
@@ -49,10 +62,10 @@
   transition: 0.3s;
 }
 .work-btn-center .arrow::before {
-  background: red;
+  background: #9D1613;
 }
 .work-btn-center .arrow::after {
-  border-left-color: red;
+  border-left-color: #9D1613;
 }
 
 .work-btn-down {
@@ -60,7 +73,7 @@
   color: #000000;
 }
 .work-btn-down:hover {
-  color: red;
+  color: #9D1613;
 }
 .work-btn-down .arrow::before {
   background: black;
@@ -70,14 +83,9 @@
 }
 
 .about-btn-center {
+  z-index: 1000;
   bottom: 50%;
   transition: 0.3s;
-}
-.about-btn-center .arrow::before {
-  background: black;
-}
-.about-btn-center .arrow::after {
-  border-left-color: black;
 }
 
 .about-btn-down {
@@ -85,7 +93,7 @@
   color: #ffffff;
 }
 .about-btn-down:hover {
-  color: red;
+  color: #9D1613;
 }
 .about-btn-down .arrow::before {
   background: white;

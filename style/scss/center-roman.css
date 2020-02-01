@@ -1,15 +1,24 @@
 .red {
-  color: red;
+  color: #9D1613;
 }
 
 .bg--red {
-  background: red;
+  background: #9D1613;
+}
+
+.g-black {
+  color: #000000;
+}
+
+.my-color {
+  color: #ff0000;
 }
 
 .centerRoman {
   position: absolute;
   width: 100%;
   text-align: center;
+  overflow: hidden;
 }
 .centerRoman .bigR {
   white-space: nowrap;
@@ -17,8 +26,8 @@
   transition: all, 1s;
 }
 .centerRoman .bigR i {
-  color: red;
-  font-size: 200px;
+  color: #9D1613;
+  font-size: 15em;
   font-weight: bold;
   font-style: normal;
   transition: 0.5s;
@@ -31,29 +40,40 @@
 .centerRoman .bigR .oman-active {
   transition: all 0.2s 0s linear;
   display: inline-block;
-  max-width: 640px;
+  max-width: 1000px;
 }
 .centerRoman .bigR .roman--i--after {
-  font-size: 300px;
+  font-size: 30em;
   opacity: 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1440px) {
   .centerRoman .bigR i {
-    font-size: 160px;
+    font-size: 13em;
   }
   .centerRoman .bigR .roman--i--after {
-    font-size: 400px;
-    opacity: 0;
+    font-size: 20em;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .centerRoman .bigR i {
+    font-size: 8em;
+  }
+  .centerRoman .bigR .roman--i--after {
+    font-size: 14em;
   }
 }
 @media only screen and (max-width: 850px) {
   .centerRoman .bigR i {
-    font-size: 75px;
+    font-size: 6em;
   }
   .centerRoman .bigR .roman--i--after {
-    font-size: 200px;
-    opacity: 0;
+    font-size: 10em;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .centerRoman .bigR i {
+    font-size: 5em;
   }
 }
 

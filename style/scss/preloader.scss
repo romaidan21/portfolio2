@@ -1,0 +1,42 @@
+.preloader{
+  background: rgba(0, 0, 0, 1);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  transition: 0.5s all;
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  .loader_gif{
+    border: 2px solid #009688;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: pulsing 1s infinite;
+  }
+
+}
+
+.done{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+@keyframes pulsing {
+  0% {
+    transform: scale(.9, .9)
+  }
+  70% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(.9, .9);
+  }
+}

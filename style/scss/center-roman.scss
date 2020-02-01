@@ -4,6 +4,7 @@
   position: absolute;
   width: 100%;
   text-align: center;
+  overflow: hidden;
 
   .bigR  {
     white-space: nowrap;
@@ -12,88 +13,90 @@
 
     i{
       color: $red;
-      font-size: 200px;
+      font-size: 15em;
       font-weight: bold;
       font-style: normal;
       transition: .5s;
-
     }
 
     .oman-hidden{
       max-width: 0;
       display: inline-block;
       transition: all .2s .2s linear;
-
     }
 
     .oman-active{
       transition: all .2s 0s linear;
       display: inline-block;
-      max-width: 640px;
-
-
+      max-width: 1000px;
     }
-
-
 
     .roman--i--after {
-      font-size: 300px;
+      font-size: 30em;
       opacity: 0;
-
     }
-
-
-
   }
-
-
-
-
-
-
 }
 
 
+@media only screen and (max-width: 1440px) {
 
+  .centerRoman{
+
+    .bigR{
+
+      i{
+        font-size: 13em;
+      }
+
+      .roman--i--after {
+        font-size: 20em;
+
+      }
+
+    }
+  }
+
+}
 
 @media only screen and (max-width: 1024px) {
 
   .centerRoman{
-
     .bigR{
 
       i{
-        font-size: 160px;
+        font-size: 8em;
       }
-
       .roman--i--after {
-        font-size: 400px;
-        opacity: 0;
-
+        font-size: 14em;
       }
-
     }
   }
 
 }
 
-
 @media only screen and (max-width: 850px) {
 
   .centerRoman{
-
     .bigR{
-
       i{
-        font-size: 75px;
+        font-size: 6em;
       }
-
       .roman--i--after {
-        font-size: 200px;
-        opacity: 0;
-
+        font-size: 10em;
       }
+    }
+  }
 
+}
+
+@media only screen and (max-width: 550px) {
+
+  .centerRoman{
+    .bigR{
+      i{
+        font-size: 5em;
+      }
     }
   }
 
