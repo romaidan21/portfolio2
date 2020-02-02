@@ -57,6 +57,7 @@
     color: #fff;
     transition: .5s;
     opacity: 0;
+    white-space: nowrap;
 
     &:focus{
       outline: none;
@@ -123,10 +124,10 @@
   .cont-site{
     .screen-site{
       margin: 0 0 10%;
-      width: 80%;
+      width: 90%;
 
       &:hover{
-        width: 80%;
+        width: 95%;
       }
     }
   }

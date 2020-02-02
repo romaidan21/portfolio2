@@ -50,6 +50,7 @@
   color: #fff;
   transition: 0.5s;
   opacity: 0;
+  white-space: nowrap;
 }
 .cont-text .web-text:focus {
   outline: none;
@@ -105,10 +106,10 @@
 @media only screen and (max-width: 550px) {
   .cont-site .screen-site {
     margin: 0 0 10%;
-    width: 80%;
+    width: 90%;
   }
   .cont-site .screen-site:hover {
-    width: 80%;
+    width: 95%;
   }
 
   .cont-text {

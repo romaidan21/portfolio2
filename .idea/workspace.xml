@@ -2,44 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303c3d54-698d-4270-a382-de47b59359d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/letter-m.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1234.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/12345.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2223717.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/500x281_WelldocumentedFlatCoyote-mobile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/WelldocumentedFlatCoyote-mobile.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ezgif.com-optimize.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/giphy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/giphy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/giphy2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/maxresdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/preloader.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/letter-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/r.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/preloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about-me.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about-me.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about-me.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/background.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/background.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/background.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/center-roman.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/center-roman.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/cont-site.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/cont-site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/cont-site.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/cont-site.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss/cont-site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/cont-site.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/fixed-R-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/fixed-R-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/fixed-R-menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/fixed-R-menu.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/fixed-R-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/fixed-R-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/me-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/me-img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/me-img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/page-work.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/page-work.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/page-work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/page-work.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/preloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/preloader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/preloader.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/preloader.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/scss/preloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/preloader.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +102,7 @@
       <workItem from="1579269607736" duration="824000" />
       <workItem from="1579271854581" duration="8554000" />
       <workItem from="1579381933979" duration="63250000" />
-      <workItem from="1579770918596" duration="171065000" />
+      <workItem from="1579770918596" duration="181635000" />
     </task>
     <servers />
   </component>
