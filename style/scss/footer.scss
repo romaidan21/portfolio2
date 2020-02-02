@@ -13,6 +13,10 @@
     top: 0;
     left: 0;
 
+    &:focus{
+      outline: none;
+    }
+
   }
 
 

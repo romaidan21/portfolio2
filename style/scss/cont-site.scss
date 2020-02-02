@@ -15,15 +15,21 @@
     background-color: #000;
     transition: .3s;
 
-    &:hover{
-      width: 60%;
-      transition: .3s;
-    }
-    img{
+    .img{
       width: 100%;
       opacity: .9;
       transition: .5s;
     }
+
+    &:hover{
+      width: 60%;
+      transition: .3s;
+
+      .img{
+        opacity: .3;
+      }
+    }
+
   }
 }
 .cont-text{
@@ -38,17 +44,23 @@
   font-size: 40px ;
   font-weight: 600;
 
-  &:hover .web-text{
+  &:hover {
+    .web-text{
     font-size: 50px;
     transition: .5s;
     opacity: .7;
+    }
   }
 
   .web-text{
     cursor: default;
     color: #fff;
     transition: .5s;
-    opacity: .4;
+    opacity: 0;
+
+    &:focus{
+      outline: none;
+    }
   }
 
   .link:hover{
@@ -109,24 +121,30 @@
 
 @media only screen and (max-width: 550px) {
   .cont-site{
-
     .screen-site{
       margin: 0 0 10%;
-      width: 75%;
+      width: 80%;
 
       &:hover{
         width: 80%;
       }
     }
   }
-
   .cont-text{
-    font-size: 35px ;
+    font-size: 30px ;
+    &:hover .web-text{
+      font-size: 30px;
+    }
     .web-text{
       opacity: 1;
+
     }
     .link:hover{
-      font-size: 40px;
+      font-size: 32px;
     }
+  }
+
+  .margin-top{
+    margin-top: -20%;
   }
 }

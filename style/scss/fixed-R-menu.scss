@@ -4,32 +4,22 @@
   top: 6%;
   left: 4%;
   z-index: 1000;
-
-
-
 }
 .bigR  {
   white-space: nowrap;
   font-family: 'Montserrat Alternates', sans-serif;
   transition: all, 1s;
   letter-spacing: -3px;
-
   i{
-    //color: black;
     font-size: 40px;
     font-weight: bold;
     font-style: normal;
     transition: .5s;
-
   }
-
-
   .oman-hidden{
     max-width: 0;
     display: inline-block;
     transition: all .2s .2s linear;
-
-
     i{
       opacity: 0;
     }
@@ -45,18 +35,14 @@
     i:nth-child(4) {
       transition: all 0.2s 0s linear;
     }
-
   }
-
   .oman-active{
     transition: all .15s 0s linear;
     display: inline-block;
     max-width: 130px;
-
     i{
       opacity: 1;
     }
-
     i:nth-child(1) {
       transition: all 0.2s 0.1s linear;
     }
@@ -71,19 +57,11 @@
     }
   }
 
-
-
-
-
-
-
 }
-
 .white {
   color: white!important;
   transition: .5s;
 }
-
 .home-p{
   opacity: 0;
   padding-top: 5px;
@@ -92,8 +70,16 @@
   font-weight: 600;
   transition: .2s;
 }
-
 .fixedR:hover .home-p{
   transition: .2s;
   opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+.fixedR-550{
+  display: none;
+}
 }

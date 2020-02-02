@@ -8,7 +8,15 @@
 }
 .contAboutMe--active {
   left: 0;
-  transition: 1s;
+  transition: 1s 0.5s;
+}
+
+@media only screen and (max-width: 550px) {
+  .contAboutMe {
+    bottom: 0;
+    height: 45%;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=about-me.css.map */

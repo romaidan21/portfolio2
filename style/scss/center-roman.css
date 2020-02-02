@@ -40,7 +40,7 @@
 .centerRoman .bigR .oman-active {
   transition: all 0.2s 0s linear;
   display: inline-block;
-  max-width: 1000px;
+  max-width: 750px;
 }
 .centerRoman .bigR .roman--i--after {
   font-size: 30em;
@@ -51,6 +51,9 @@
   .centerRoman .bigR i {
     font-size: 13em;
   }
+  .centerRoman .bigR .oman-active {
+    max-width: 640px;
+  }
   .centerRoman .bigR .roman--i--after {
     font-size: 20em;
   }
@@ -58,6 +61,9 @@
 @media only screen and (max-width: 1024px) {
   .centerRoman .bigR i {
     font-size: 8em;
+  }
+  .centerRoman .bigR .oman-active {
+    max-width: 390px;
   }
   .centerRoman .bigR .roman--i--after {
     font-size: 14em;
@@ -67,6 +73,9 @@
   .centerRoman .bigR i {
     font-size: 6em;
   }
+  .centerRoman .bigR .oman-active {
+    max-width: 290px;
+  }
   .centerRoman .bigR .roman--i--after {
     font-size: 10em;
   }
@@ -74,6 +83,9 @@
 @media only screen and (max-width: 550px) {
   .centerRoman .bigR i {
     font-size: 5em;
+  }
+  .centerRoman .bigR .oman-active {
+    max-width: 240px;
   }
 }
 

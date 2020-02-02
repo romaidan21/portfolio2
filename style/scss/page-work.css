@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 400px;
+  font-size: 300px;
   transition: 0.5s;
 }
 .page-work .cont-work .work-active {
@@ -38,22 +38,22 @@
 
 @media only screen and (max-width: 1440px) {
   .page-work .cont-work {
-    font-size: 350px;
+    font-size: 210px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .page-work .cont-work {
-    font-size: 250px;
+    font-size: 150px;
   }
 }
 @media only screen and (max-width: 768px) {
   .page-work .cont-work {
-    font-size: 175px;
+    font-size: 125px;
   }
 }
 @media only screen and (max-width: 550px) {
   .page-work .cont-work {
-    font-size: 150px;
+    font-size: 100px;
   }
 }
 

@@ -6,13 +6,13 @@
   align-items: flex-end;
   background-color: #0f0f0f;
   position: fixed;
-  transition: 0.5s;
+  transition: 1s;
   overflow: hidden;
 }
 .cont-img--50 {
   width: 50%;
   position: absolute;
-  transition: 1.5s;
+  transition: 1.5s 0.5s;
 }
 
 .cont-img-onscroll {
@@ -25,11 +25,21 @@
 
 .meImg {
   height: 120%;
-  transition: 1s;
 }
 
 .transform-2x {
   transform: scale(1.5);
+}
+
+@media only screen and (max-width: 550px) {
+  .cont-img {
+    top: 0;
+  }
+  .cont-img--50 {
+    height: 70vh;
+    width: 100%;
+    top: 0;
+  }
 }
 
 /*# sourceMappingURL=me-img.css.map */

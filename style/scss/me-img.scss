@@ -7,13 +7,13 @@
   align-items: flex-end;
   background-color: #0f0f0f;
   position: fixed;
-  transition: .5s;
+  transition: 1s;
   overflow: hidden;
 
   &--50{
     width: 50%;
     position: absolute;
-    transition: 1.5s;
+    transition: 1.5s .5s;
   }
 }
 
@@ -30,9 +30,24 @@
 
 .meImg{
   height: 120%;
-  transition: 1s;
 }
 
 .transform-2x{
   transform: scale(1.5);
+}
+
+
+@media only screen and (max-width: 550px) {
+
+.cont-img{
+  top: 0;
+
+  &--50 {
+    height: 70vh;
+    width: 100%;
+    top: 0;
+  }
+}
+
+
 }

@@ -102,5 +102,22 @@
     width: 20px;
   }
 }
+@media only screen and (max-width: 550px) {
+  .contAboutMe .center--block .text--content h1 {
+    font-size: 25px;
+  }
+  .contAboutMe .center--block .text--content p {
+    font-size: 35px;
+  }
+  .contAboutMe .center--block .text--content p:nth-of-type(4) {
+    font-size: 25px;
+  }
+  .contAboutMe .learn-more {
+    font-size: 12px;
+  }
+  .contAboutMe .learn-more .line {
+    width: 20px;
+  }
+}
 
 /*# sourceMappingURL=roman-maidan.css.map */

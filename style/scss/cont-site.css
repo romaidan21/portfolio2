@@ -15,14 +15,17 @@
   background-color: #000;
   transition: 0.3s;
 }
+.cont-site .screen-site .img {
+  width: 100%;
+  opacity: 0.9;
+  transition: 0.5s;
+}
 .cont-site .screen-site:hover {
   width: 60%;
   transition: 0.3s;
 }
-.cont-site .screen-site img {
-  width: 100%;
-  opacity: 0.9;
-  transition: 0.5s;
+.cont-site .screen-site:hover .img {
+  opacity: 0.3;
 }
 
 .cont-text {
@@ -46,7 +49,10 @@
   cursor: default;
   color: #fff;
   transition: 0.5s;
-  opacity: 0.4;
+  opacity: 0;
+}
+.cont-text .web-text:focus {
+  outline: none;
 }
 .cont-text .link:hover {
   cursor: pointer;
@@ -99,20 +105,27 @@
 @media only screen and (max-width: 550px) {
   .cont-site .screen-site {
     margin: 0 0 10%;
-    width: 75%;
+    width: 80%;
   }
   .cont-site .screen-site:hover {
     width: 80%;
   }
 
   .cont-text {
-    font-size: 35px;
+    font-size: 30px;
+  }
+  .cont-text:hover .web-text {
+    font-size: 30px;
   }
   .cont-text .web-text {
     opacity: 1;
   }
   .cont-text .link:hover {
-    font-size: 40px;
+    font-size: 32px;
+  }
+
+  .margin-top {
+    margin-top: -20%;
   }
 }
 

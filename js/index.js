@@ -2,16 +2,8 @@
 $(document).ready(function () {
 
 
-
         let arr = ['.buttonAboutMe', '.buttonMyWork'];
         let click = false;
-
-
-
-
-        // $('#work1').on('click',  ()=> { window.open("https://romaidan21.github.io/first/", "_blank")});
-        // $('#work2').on('click',  ()=> { window.open("https://romaidan21.github.io/fabuwood/", "_blank")});
-
 
         window.onscroll = function () {
 
@@ -169,16 +161,16 @@ $(document).ready(function () {
             }, 500);
 
             setTimeout( () =>{
-                $('.cont-img').removeClass('right');
                 $('#work-btn--about-me').addClass('about-btn-center').removeClass('about-btn-down');
                 $('#about-btn--work').addClass('displayNone work-btn-center').removeClass('work-btn-down');
                 $('.work-active').addClass('work-letter');
             }, 1000);
 
             setTimeout( ()=>{
+                $('.cont-img').removeClass('right');
                 $('.work-btn--about-me').removeClass('left-5');
                 $('.cont-site').removeClass('margin-before')
-            },1500);
+            },2500);
         });
 
 
@@ -192,7 +184,7 @@ $(document).ready(function () {
                 // $('.meImg').removeClass('meImg--after');
                 $('.about--center-cont').addClass('displayNone');
                 $('.work-active').removeClass('work-letter work-active--onscroll');
-                // $('.cont-img').removeClass('cont-img-onscroll cont-img--50');
+                $('.cont-img').removeClass('cont-img-onscroll cont-img--50');
                 $('#fixed--half-opacity').removeClass('fixed--half-opacity');
                 $('i, .home-p').removeClass('white');
                 $('.cont-site').addClass('opacityTrans');
@@ -206,13 +198,12 @@ $(document).ready(function () {
                     $('.page-work').addClass('displayNone');
                     $('#bigR').removeClass('displayNone');
                     $('#myLogo').removeClass('displayNone');
-                    $('.cont-img').removeClass('cont-img-onscroll cont-img--50');
+                    // $('.cont-img').removeClass('cont-img-onscroll cont-img--50');
 
                 }, 500);
 
                 setTimeout( () =>{
                     $('.roman-i').removeClass('roman--i--after');
-                    $('.cont-img').removeClass('right');
                     $('#work-btn--about-me').addClass('about-btn-center').removeClass('about-btn-down');
                     $('.cont-site').addClass('margin-before').removeClass('margin-top');
                     $('#about-btn--work').addClass('displayNone');
@@ -220,6 +211,7 @@ $(document).ready(function () {
                 }, 1000);
 
                 setTimeout( ()=>{
+                    $('.cont-img').removeClass('right');
                     $('.buttonAboutMe, .buttonMyWork').removeClass("opacityTrans");
                     $('#myLogo').removeClass('oman-hidden').addClass('oman-active');
                 },2000);
@@ -253,8 +245,12 @@ $(document).ready(function () {
 
 
 
+        let card = $(".meImg");
 
-
+        $(document).on("mousemove",function(e) {
+            let ax = -($(window).innerWidth()/2- e.pageX)/50;
+            card.attr("style", "transform: rotateY("+ax+"deg)");
+        });
 
 
 

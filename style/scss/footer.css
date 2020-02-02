@@ -11,5 +11,8 @@
   top: 0;
   left: 0;
 }
+.footer .fixedRDown:focus {
+  outline: none;
+}
 
 /*# sourceMappingURL=footer.css.map */

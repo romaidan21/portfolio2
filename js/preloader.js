@@ -1,4 +1,8 @@
+
+
 document.body.onload = function() {
+
+
 
     let preloader = document.getElementById('page_preloader');
     let r = document.readyState;
@@ -9,8 +13,7 @@ document.body.onload = function() {
 
         setTimeout(()=>{
             preloader.classList.add('done');
-            $('.meImg').removeClass('transform-2x');
-
+            $('.cont-img').removeClass('transform-2x');
 
             setTimeout(()=>{
                 $('.roman-i').removeClass('roman--i--after');
@@ -23,13 +26,4 @@ document.body.onload = function() {
 
         },1000)
     }
-
-    // setTimeout(function() {
-    //     if( !preloader.classList.contains('done'))
-    //     {
-    //         preloader.classList.add('done');
-    //     }
-    // }, 500);
-
-
 };

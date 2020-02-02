@@ -78,4 +78,10 @@
   opacity: 1;
 }
 
+@media only screen and (max-width: 550px) {
+  .fixedR-550 {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=fixed-R-menu.css.map */
