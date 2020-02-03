@@ -46,5 +46,25 @@
     transform: scale(0.9, 0.9);
   }
 }
+@media only screen and (max-width: 550px) {
+  .preloader .loader_gif {
+    box-shadow: 0 0 90px 40px #9D1613;
+    font-size: 30px;
+  }
+
+  @keyframes pulsing {
+    0% {
+      transform: scale(0.9, 0.9);
+    }
+    40% {
+      transform: scale(1.1, 1.1);
+      color: #000000;
+      box-shadow: 0 0 90px 45px #9D1613;
+    }
+    100% {
+      transform: scale(0.9, 0.9);
+    }
+  }
+}
 
 /*# sourceMappingURL=preloader.css.map */
