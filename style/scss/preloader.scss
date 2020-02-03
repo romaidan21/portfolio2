@@ -16,22 +16,15 @@
     justify-content: center;
   }
   .loader_gif{
-    box-shadow: 0 0 50px 15px #9D1613;
+    box-shadow: 0 0 120px 60px #9D1613;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
-    animation: pulsing 1s infinite;
-    .loader-r{
-      width: 71px;
-      height: 71px;
-      border-radius: 50%;
-      background-color: #9D1613;
-      box-shadow: 0 0 10px 5px #000000;
-      img{
-        width: 55px;
-        border-radius: 50%;
-      }
-    }
+    width: 0;
+    height: 0;
+    animation: pulsing 1.2s infinite;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #9D1613;
   }
 }
 .done{
@@ -44,8 +37,10 @@
   0% {
     transform: scale(.9, .9)
   }
-  70% {
+  40% {
     transform: scale(1.1, 1.1);
+    color: black;
+    box-shadow: 0 0 140px 75px #9D1613;
   }
   100% {
     transform: scale(.9, .9);
