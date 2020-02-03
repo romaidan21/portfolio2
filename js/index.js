@@ -258,3 +258,6 @@ $(document).ready(function () {
 });
 
 
+
+
+// Roman Maidan 2020
