@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="303c3d54-698d-4270-a382-de47b59359d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/preloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/preloader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/preloader.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/preloader.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/preloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/preloader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +62,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myPortfolio/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,7 +90,7 @@
       <workItem from="1579269607736" duration="824000" />
       <workItem from="1579271854581" duration="8554000" />
       <workItem from="1579381933979" duration="63250000" />
-      <workItem from="1579770918596" duration="186333000" />
+      <workItem from="1579770918596" duration="187734000" />
     </task>
     <servers />
   </component>
