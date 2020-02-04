@@ -19,6 +19,13 @@
     bottom: 0;
     height: 45%;
     width: 100%;
+    transition: 0s;
+
+
+    &--active{
+      transition: 0s;
+
+    }
   }
 }
 

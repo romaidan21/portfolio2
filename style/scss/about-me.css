@@ -16,6 +16,10 @@
     bottom: 0;
     height: 45%;
     width: 100%;
+    transition: 0s;
+  }
+  .contAboutMe--active {
+    transition: 0s;
   }
 }
 

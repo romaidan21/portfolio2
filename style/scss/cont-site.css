@@ -21,7 +21,7 @@
   transition: 0.5s;
 }
 .cont-site .screen-site:hover {
-  width: 60%;
+  transform: scale(1.2);
   transition: 0.3s;
 }
 .cont-site .screen-site:hover .img {
@@ -57,7 +57,7 @@
 }
 .cont-text .link:hover {
   cursor: pointer;
-  font-size: 60px;
+  transform: scale(1.2);
   opacity: 1;
   transition: 0.3s;
   font-weight: 800;

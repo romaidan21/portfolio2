@@ -12,12 +12,12 @@
   min-width: 50%;
 }
 .about--center-cont .center-cont-half .half-cont h4 {
-  font-size: 8em;
+  font-size: 7em;
   font-weight: bold;
   margin: 0;
 }
 .about--center-cont .center-cont-half .half-cont p {
-  font-size: 2em;
+  font-size: 30px;
   font-weight: 500;
   line-height: 1.8em;
   opacity: 0.8;
@@ -33,13 +33,13 @@
 
 @media only screen and (max-width: 1440px) {
   .about--center-cont .center-cont-half .half-cont h4 {
-    font-size: 6em;
+    font-size: 5em;
   }
   .about--center-cont .center-cont-half .half-cont p {
-    font-size: 23px;
+    font-size: 19px;
   }
   .about--center-cont .center-cont-half .half-cont .cont-resume a {
-    font-size: 26px;
+    font-size: 23px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -47,14 +47,14 @@
     font-size: 4em;
   }
   .about--center-cont .center-cont-half .half-cont p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5em;
   }
   .about--center-cont .center-cont-half .half-cont .cont-resume {
     padding: 1.5em;
   }
   .about--center-cont .center-cont-half .half-cont .cont-resume a {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -62,8 +62,11 @@
     flex-direction: column;
     width: 70%;
   }
+  .about--center-cont .center-cont-half .half-cont h4 {
+    font-size: 3em;
+  }
   .about--center-cont .center-cont-half .half-cont p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5em;
   }
   .about--center-cont .center-cont-half .half-cont .cont-resume {
@@ -72,10 +75,10 @@
 }
 @media only screen and (max-width: 550px) {
   .about--center-cont .center-cont-half .half-cont h4 {
-    font-size: 3em;
+    font-size: 2em;
   }
   .about--center-cont .center-cont-half .half-cont p {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 

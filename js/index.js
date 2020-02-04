@@ -44,7 +44,30 @@ $(document).ready(function () {
             }
         };
 
-        $('.buttonAboutMe, .buttonMyWork, #close-menu--work, #close-menu--about')
+        $('#close-menu--about')
+            .on('click', function () {
+            $('.about--center-cont').removeClass('displayNone');
+            $('.work-active').removeClass('work-active--onscroll');
+            $('.contAboutMe').addClass("contAboutMe--active");
+            $('.cont-img').addClass("cont-img--50");
+            $('.centerRoman').addClass("displayNone");
+            $(".fixedR, .fixedRDown").removeClass('displayNone');
+        });
+
+        $('#close-menu--work')
+            .on('click', function () {
+            click = true;
+            console.log(click);
+            $(".page-work").removeClass('displayNone');
+            $('.cont-site').removeClass('opacityTrans margin-before');
+            $('#fixedR-top, .home-p').addClass('red').removeClass('g-black');
+            $('.work-active').removeClass('displayNone').addClass('work-letter');
+            $('.centerRoman').addClass("displayNone");
+            $(".fixedR, .fixedRDown").removeClass('displayNone');
+        });
+
+
+        $('.buttonAboutMe, .buttonMyWork')
             .on('click', function () {
         let i = 0;
         setInterval( function () {
@@ -66,7 +89,7 @@ $(document).ready(function () {
 
     });
 
-        $('.buttonAboutMe, #close-menu--about')
+        $('.buttonAboutMe')
             .on('click', function () {
             $('.about--center-cont').removeClass('displayNone');
             $('.cont-img').addClass('right');
@@ -82,7 +105,7 @@ $(document).ready(function () {
             }, 1200);
         });
 
-        $('.buttonMyWork, #close-menu--work')
+        $('.buttonMyWork')
             .on('click', function () {
         click = true;
         console.log(click);
@@ -181,7 +204,6 @@ $(document).ready(function () {
                 click = false;
 
                 $('.contAboutMe').removeClass("contAboutMe--active");
-                // $('.meImg').removeClass('meImg--after');
                 $('.about--center-cont').addClass('displayNone');
                 $('.work-active').removeClass('work-letter work-active--onscroll');
                 $('.cont-img').removeClass('cont-img-onscroll cont-img--50');
@@ -192,14 +214,12 @@ $(document).ready(function () {
                 $('#about-btn--work').addClass('right-5');
                 $('#hiddenMe').addClass('oman-hidden').removeClass('oman-active');
                 $('#fixedR-top, .home-p').removeClass('red').addClass('g-black');
-
+                $('.centerRoman').removeClass("displayNone");
 
                 setTimeout( () =>{
                     $('.page-work').addClass('displayNone');
                     $('#bigR').removeClass('displayNone');
                     $('#myLogo').removeClass('displayNone');
-                    // $('.cont-img').removeClass('cont-img-onscroll cont-img--50');
-
                 }, 500);
 
                 setTimeout( () =>{
@@ -256,6 +276,8 @@ $(document).ready(function () {
 
 
 });
+
+
 
 
 

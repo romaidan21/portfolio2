@@ -72,6 +72,14 @@
   .page-work{
     .cont-work{
       font-size: 100px;
+
+      .work-active{
+        transition: 0s;
+      }
+
+      .work-letter{
+        transition: 0.5s;
+      }
     }
   }
 }

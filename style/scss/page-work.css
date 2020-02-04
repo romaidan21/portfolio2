@@ -55,6 +55,12 @@
   .page-work .cont-work {
     font-size: 100px;
   }
+  .page-work .cont-work .work-active {
+    transition: 0s;
+  }
+  .page-work .cont-work .work-letter {
+    transition: 0.5s;
+  }
 }
 
 /*# sourceMappingURL=page-work.css.map */

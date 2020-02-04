@@ -8,7 +8,7 @@
     justify-content: center;
 
     .text--content{
-      width: 65%;
+      width: 70%;
 
       h1{
         margin: 0;
@@ -20,15 +20,16 @@
       }
 
       p{
+        white-space: nowrap;
         font-family: "Montserrat", sans-serif;
         margin: -10px 0;
         padding-left: 5px;
-        font-size: 85px;
+        font-size: 75px;
         font-weight: 800;
         letter-spacing: 3px;
       }
       p:nth-of-type(4){
-        font-size: 55px;
+        font-size: 60px;
       }
     }
   }
@@ -63,15 +64,15 @@
     .center--block {
       .text--content {
         h1 {
-          font-size: 35px;
+          font-size: 33px;
         }
 
         p {
-          font-size: 68px;
+          font-size: 55px;
         }
 
         p:nth-of-type(4) {
-          font-size: 55px;
+          font-size: 50px;
         }
       }
     }
@@ -92,7 +93,7 @@
           font-size: 25px;
         }
         p {
-          font-size: 45px;
+          font-size: 40px;
         }
         p:nth-of-type(4) {
           font-size: 35px;
@@ -108,16 +109,16 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
   .contAboutMe {
     .center--block {
       .text--content {
         h1 {
-          font-size: 25px;
+          font-size: 22px;
         }
 
         p {
-          font-size: 35px;
+          font-size: 30px;
         }
 
         p:nth-of-type(4) {
@@ -139,12 +140,13 @@
   .contAboutMe {
     .center--block {
       .text--content {
+        width: 65%;
         h1 {
-          font-size: 25px;
+          font-size: 20px;
         }
 
         p {
-          font-size: 35px;
+          font-size: 30px;
         }
 
         p:nth-of-type(4) {
@@ -153,10 +155,7 @@
       }
     }
     .learn-more {
-      font-size: 12px;
-      .line {
-        width: 20px;
-      }
+      display: none;
     }
   }
 }

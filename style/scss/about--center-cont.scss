@@ -12,12 +12,12 @@
       min-width: 50% ;
 
       h4 {
-        font-size: 8em;
+        font-size: 7em;
         font-weight: bold;
         margin: 0;
       }
       p{
-        font-size: 2em;
+        font-size: 30px;
         font-weight: 500;
         line-height: 1.8em;
         opacity: 0.8;
@@ -44,14 +44,14 @@
     .center-cont-half{
       .half-cont{
         h4 {
-          font-size: 6em;
+          font-size: 5em;
         }
         p{
-          font-size: 23px;
+          font-size: 19px;
         }
         .cont-resume{
           a{
-            font-size: 26px;
+            font-size: 23px;
           }
         }
       }
@@ -68,13 +68,13 @@
           font-size: 4em;
         }
         p{
-          font-size: 20px;
+          font-size: 16px;
           line-height: 1.5em;
         }
         .cont-resume{
           padding: 1.5em;
           a{
-            font-size: 20px;
+            font-size: 18px;
           }
         }
       }
@@ -88,8 +88,11 @@
       flex-direction: column;
       width: 70%;
       .half-cont{
+        h4{
+          font-size: 3em;
+        }
         p{
-          font-size: 18px;
+          font-size: 16px;
           line-height: 1.5em;
         }
         .cont-resume{
@@ -106,10 +109,10 @@
     .center-cont-half{
       .half-cont{
         h4 {
-          font-size: 3em;
+          font-size: 2em;
         }
         p{
-          font-size: 17px;
+          font-size: 15px;
         }
       }
     }
