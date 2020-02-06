@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303c3d54-698d-4270-a382-de47b59359d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Nazik2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/resume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about--center-cont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about--center-cont.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about-me.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about-me.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/about-me.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/about-me.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/cont-site.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/cont-site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/cont-site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/cont-site.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/hidden-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/hidden-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/hidden-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/hidden-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/me-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/me-img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/me-img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/me-img.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/page-work.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/page-work.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/page-work.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/page-work.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/page-work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/page-work.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/roman-maidan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/roman-maidan.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +92,7 @@
       <workItem from="1579271854581" duration="8554000" />
       <workItem from="1579381933979" duration="63250000" />
       <workItem from="1579770918596" duration="188469000" />
-      <workItem from="1580739975268" duration="10315000" />
+      <workItem from="1580739975268" duration="12439000" />
     </task>
     <servers />
   </component>
